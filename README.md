@@ -1,41 +1,122 @@
 # Enterprise Active Directory Lab
 
-## Project Overview
-This project demonstrates the deployment and management of an Enterprise Active Directory environment using Windows Server. It covers domain services, organizational units, user and group management, Group Policy configuration, and client domain joining in a virtual lab environment.
+#  Project Overview
 
-## Objectives
+This project demonstrates the deployment and administration of an Enterprise Active Directory environment using Windows Server in a virtual lab. The lab simulates a real-world enterprise domain where users, organizational units, security groups, and Group Policy Objects (GPOs) are configured and managed.
+
+The objective of this project is to gain practical experience in Windows Server administration, Active Directory management, and enterprise security concepts.
+
+#  Objectives
+
 - Install Windows Server
 - Configure Active Directory Domain Services (AD DS)
 - Promote the server to a Domain Controller
+- Configure DNS
 - Create Organizational Units (OUs)
-- Create users and security groups
+- Create and manage users
+- Create and manage security groups
 - Configure Group Policy Objects (GPOs)
 - Join a Windows client to the domain
-- Test authentication and policy enforcement
+- Verify authentication and policy enforcement
 
-## Lab Environment
-- Windows Server
-- Windows Client
-- Active Directory Domain Services (AD DS)
-- DNS
-- Group Policy
-- VirtualBox/VMware
+#  Lab Environment
 
-## Skills Demonstrated
-- Active Directory Administration
-- User and Group Management
-- Group Policy Management
+| Component         |                Technology                |
+----------------------------------------------------------------
+| Operating System  | Windows Server                           |
+| Client OS         | Windows 10 / Windows 11                  |
+| Virtualization    | VMware Workstation / VirtualBox          |
+| Directory Service | Active Directory Domain Services (AD DS) |
+| DNS               | Windows DNS                              |
+| Group Policy      | Group Policy Management                  |
+
+#  Project Tasks
+
+✔ Installed Windows Server
+
+✔ Promoted Server to Domain Controller
+
+✔ Configured Active Directory
+
+✔ Created Organizational Units (OUs)
+
+✔ Created Multiple Users
+
+✔ Created Security Groups
+
+✔ Configured Password Policy
+
+✔ Configured Group Policy Objects (GPO)
+
+✔ Joined Client Machine to Domain
+
+✔ Tested User Authentication
+
+✔ Verified Group Policy Application
+
+#  Project Structure
+
+Enterprise-AD-Lab
+│
+├── README.md
+├── Notes
+├── Reports
+├── Screenshots
+└── PowerShell (Optional)
+
+#  Screenshots
+
+Project screenshots are available inside the **Screenshots** folder.
+
+Examples include:
+
+- Windows Server Installation
+- Active Directory Installation
+- Domain Controller Configuration
+- Organizational Units
+- User Creation
+- Group Creation
+- Group Policy Configuration
+- Client Domain Join
+
+#  Skills Demonstrated
+
 - Windows Server Administration
+- Active Directory Administration
+- User & Group Management
+- Organizational Unit (OU) Management
+- Group Policy Management
+- Windows Authentication
+- DNS Configuration
+- Enterprise Administration
 - Basic Networking
-- Domain Administration
+- Troubleshooting
 
-## Folder Structure
-- Notes/
-- Reports/
-- Screenshots/
+#  Learning Outcomes
 
-## Screenshots
-Project screenshots are available in the **Screenshots** folder.
+Through this lab I gained practical experience in:
 
-## Learning Outcomes
-This project helped me understand how enterprise Windows environments are deployed and managed, including identity management, authentication, authorization, and Group Policy administration.
+- Active Directory deployment
+- Enterprise identity management
+- Authentication and authorization
+- Group Policy administration
+- Domain management
+- Windows Server administration
+- Enterprise security best practices
+
+#  Future Improvements
+
+- DHCP Configuration
+- Roaming Profiles
+- Folder Redirection
+- PowerShell Automation
+- Backup & Restore
+- Active Directory Certificate Services (AD CS)
+- Multi-Domain Forest
+- Domain Trust Relationships
+
+#  Author
+
+**Gaddam Harish**
+
+Cybersecurity Enthusiast | Windows Server | Active Directory | Linux | Networking
